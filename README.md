@@ -1,6 +1,7 @@
 # Glassdoor-Company-Reviews
 This repository will have the scripts and output for a text analytics project on Glassdoor reviews. First, I'll upload all the necessary packages and get the web scraping underway.
 
+```r
 library(rvest)
 library(purrr)
 library(xml2)
@@ -64,3 +65,4 @@ df$rev.stat <- sub(" Employee -", "", df$rev.stat)
 
 
 write.csv(df, "rvest-scrape-glassdoor-output.csv")
+```
