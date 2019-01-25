@@ -66,3 +66,5 @@ df$rev.stat <- sub(" Employee -", "", df$rev.stat)
 
 write.csv(df, "rvest-scrape-glassdoor-output.csv")
 ```
+
+That was all to actually scrape the data from Glassdoor. In the remaining sections I have to prepare this text to actually run the K-means clusters and sentiment analysis.
