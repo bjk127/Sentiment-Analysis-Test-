@@ -16,3 +16,8 @@ def load_GD_data():
     with open('GD_data.csv', newline='') as csvfile:
         read = csv.DictReader(csvfile)
     return[ row['rev.sum'] for row in read]
+
+
+
+
+
