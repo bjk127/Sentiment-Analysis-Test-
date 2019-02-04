@@ -232,4 +232,3 @@ tidy_reviews2 %>%
   ylim(0, 5) + expand_limits(y = 0)
 ```
 
-That was all to actually scrape the data from Glassdoor. In the remaining sections I have to prepare this text to actually run the K-means clusters and sentiment analysis.
