@@ -3,7 +3,7 @@
 #### A Date Science Project
 
 <p align="center">
-  <img src="images/Glassdoor_logo.png">
+  <img src="images/glassdoor_logo.png">
 </p>
 
 ___
