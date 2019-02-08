@@ -14,3 +14,4 @@ The goal of this project is to analyze topics in Glassdoor's employee reviews, i
 - Analyze a corpus of employee feedback using Natural Language Processing techniques. Identify latent topics and their relative importances using Non-Negative Matrix Factorization.
 
 ***To go straight to results, [Click here!](#results)***
+
