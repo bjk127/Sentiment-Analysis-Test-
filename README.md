@@ -3,9 +3,9 @@
 #### A Date Science Project
 
 <p align="center">
-  <img src="images/glassdoor_logo.png">
+  <img src="images/glassdoor_logo.png">| <img src="images/Dow Jones_logo.png"/>
 </p>
-
+ 
 ___
 ## Overview
 The goal of this project is to analyze topics in Glassdoor's employee reviews, in order to understand what employees like and dislike about their employers. To answer this question, I will need to accomplish a few things:
