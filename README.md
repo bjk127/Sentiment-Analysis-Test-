@@ -1,6 +1,6 @@
 # Sentiment Analysis on Dow Jones Employee Reviews
 
-#### A Date Science Project
+#### A Date Science Project (still working on this. Stay tuned for more!)
 
 <p align="center">
   <img src="images/glassdoor_logo.png">| <img src="images/Dow Jones_logo.png"/>
@@ -8,10 +8,9 @@
  
 ___
 ## Overview
-The goal of this project is to analyze topics in Glassdoor's employee reviews, in order to understand what employees like and dislike about their employers. To answer this question, I will need to accomplish a few things:
-- Identify employers that have significantly high and low scores, and that have enough reviews to collect a large corpus.
-- Collect employee review data for each of the employers that I have identified as a target for analysis.
-- Analyze a corpus of employee feedback using Natural Language Processing techniques. Identify latent topics and their relative importances using Non-Negative Matrix Factorization.
+The goal of this project is to analyze topics in Glassdoor's employee reviews to understand what employees like and dislike about their employers. To answer this question, I conduct the following steps:
+- Collect employee review data for Dow Jones between May 2008 and January 2019.
+- Analyze a corpus of employee feedback using Natural Language Processing techniques. Identify latent topics and their relative importance.
 
 ***To go straight to results, [Click here!](#results)***
 
@@ -45,9 +44,10 @@ Part of speech tagging is another important step in Natural Language Processing.
 One last step in successfully capturing ideas from the corpus of text is allowing for [n-grams](https://en.wikipedia.org/wiki/N-gram). N-grams are essentially sequential groups of words that communicate a different idea together than they do apart. A good example of an n-gram is `New England Patriots`. Together, the three words clearly allude to the NFL team. Apart, the words `New`, `England`, and `Patriots` communicate their own distinct ideas. In the context of this project, I did not discover any n-grams that were prevalent across the corpus.
 
 ___
-## Analyzing the Corpus
+## Methods
 Ready to start looking at the results.
 
+## Results
 
 ## Topics in Both Positive & Negative Feedback:
 
@@ -55,6 +55,13 @@ Ready to start looking at the results.
   <img src="images/top15_nrc.png">
 </p>
 
+<p align="center">
+  <img src="images/words_positive.png">
+</p>
+
+<p align="center">
+  <img src="images/words_negative.png">
+</p>
 
 <p align="center">
   <img src="images/sent_time.png">
@@ -78,3 +85,4 @@ I used the following list of python packages, along with several other built-in 
 - [TidyText](https://www.tidytextmining.com)
 - [ggplot visualization](https://ggplot2.tidyverse.org)
 - [Word Cloud](https://cran.r-project.org/web/packages/wordcloud/wordcloud.pdf)
+
